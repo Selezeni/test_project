@@ -8,4 +8,4 @@ class Book(models.Model):
     author_name = models.CharField(max_length=255)
 
     def __str__(self):
-        return f"Id{self.id}: {self.name}"
+        return f"Id {self.id}: {self.name}"
