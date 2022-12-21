@@ -13,13 +13,13 @@ class BookSerializerTestCase(TestCase):
             {
                 'id': book_1.id,
                 'name': 'Test book 1',
-                'price': '25.00',
+                'price': 25,
                 'author_name': 'Author 1',
             },
             {
                 'id': book_2.id,
                 'name': 'Test book 2',
-                'price': '50.00',
+                'price': 50,
                 'author_name': 'Author 2',
             },
         ]
